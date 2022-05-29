@@ -1,0 +1,114 @@
+.mainpage{
+    display: flex;
+}
+.rachel{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 10%;
+    gap:23px;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+.rachel-photo{
+    display: flex;
+    flex:1 1 90%;
+    min-height: 83vh;
+    align-items: center;
+    justify-content:start;
+}
+.profile{
+    width:55%;
+    height:auto;
+     box-shadow:-69px -180px 0px -10px rgba(165,204,61,255); 
+    position:relative;
+    margin-left: 80px;
+    background-size: contain;
+    z-index:-1;
+   
+}
+.abt-rachel{
+    font-size: 12px;
+    font-weight: 550;
+    width: 500px;
+}
+.abt-btn{
+    background-color: rgba(165,204,61,255);
+    color: white;
+    border: 0;
+    width: 105px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.abt-btn:hover{
+    transform: scale(1.1);
+}
+/* .green{
+    background-color: rgba(165,204,61,255);
+    width:400px;
+    height: 100%;
+} */
+.main-hustle{
+  background-image: url('bg.png');
+  display: inline-block;
+  background-repeat:repeat-y;
+  background-size: contain;
+  width: 270px;
+  height: 160px;
+  padding-left:115px;
+  padding-top:10px;
+  font-size: 53px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.education{
+    display: flex;
+
+}
+.hustle-div{
+    display: flex;
+    flex:1 1 40%;
+    align-items: center;
+}
+.edu-details{
+    display: flex;
+    flex:1 1 60%;
+    align-items:flex-start;
+    flex-direction: column;
+   
+}
+.edu1{
+    width: 450px;
+    
+}
+.edu1>p:nth-child(1){
+    color: rgba(165,204,61,255);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.edu1>p:nth-child(2){
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.edu1>p:nth-child(3){
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.edu2>p:nth-child(1){
+    color: rgba(165,204,61,255);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.edu2>p:nth-child(2){
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.edu2>p:nth-child(3){
+    font-size: 13px;
+}

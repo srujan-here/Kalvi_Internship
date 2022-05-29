@@ -1,0 +1,63 @@
+.hobby-container{
+    display: flex;
+    min-height: 83vh;
+}
+.side-hustle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    flex:1 1 50%;
+
+}
+.activities{
+    display: flex;
+    flex: 1 1 50%;
+}
+.myside{
+    color:  rgba(165,204,61,255);
+    width: 500px;
+    font-size: 60px;
+    line-height: 55px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(8,5vw);
+    row-gap: 5px;
+}
+.img-hobby{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.gallery-item2{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery-item3{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.gallery-item4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+.gallery-item5{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}

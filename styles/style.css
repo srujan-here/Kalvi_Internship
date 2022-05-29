@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:poppins, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    z-index:1;
+    margin-left: 0px;
+    
+}
+
+body{
+    height: 166vh;
+    background-color:white;
+
+    
+}
+.setter{
+    margin-left: 80px;
+}
+.nav-links{
+  color:black;
+  transition: text-decoration ease-in-out 0.2s;
+  font-size: 12px;
+  text-decoration-line: none;
+  list-style-type: none;
+  padding: 2.5rem;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.hh{
+    max-width:100%;
+}
+
+.right-side{
+    display: flex;
+    flex:1 1 40%;
+    flex-shrink:2;
+    justify-content:start;
+}
